@@ -1,0 +1,33 @@
+{
+  "editor.rulers": [100],
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#a334fb",
+    "titleBar.activeForeground": "#fff"
+  },
+  "prettier.proseWrap": "always",
+  "[mdx]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "spellright.language": [
+    "en"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "mdx"
+  ],
+  "spellright.parserByClass": {
+    "mdx": {
+      "parser": "markdown"
+    }
+  },
+  "spellright.ignoreRegExpsByClass": {
+    "mdx": [ 
+      "/&amp;/g",
+      "/&nbsp;/g",
+      "/&mdash;/g",
+      "/&gt;/g",
+      "/&lt;/g" 
+    ],
+  }
+}
